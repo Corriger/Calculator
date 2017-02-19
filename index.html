@@ -1,0 +1,128 @@
+<input id="month">
+<input id="day">
+<button id="btn">Predict</button>
+  <h2 id="sign">here it will show up</h2>
+  <h2 id="horoscope"></h2>
+<script id="jsbin-javascript">
+document.getElementById("btn").onclick = getHoro;
+
+function getHoro(){
+  var month = document.getElementById("month").value;
+  var day = parseInt(document.getElementById("day").value);
+  
+  if((month == "april" && day >= 20) || (month == "may" && day <= 20)) {
+    document.getElementById("sign").innerHTML = "Taurus";
+    document.getElementById("horoscope").innerHTML = "SSSSSSUPAH MARIO SUNSHINE BAYBEEEEE";
+    }
+  else if((month == "may" && day >= 21) || (month == "june" && day <= 21)) {
+      document.getElementById("sign").innerHTML = "Gemini";
+      document.getElementById("horoscope").innerHTML = "GET FUCKED BOIIII";
+    }
+  else if((month == "june" && day >= 22) || (month == "july" && day <= 22)) {
+      document.getElementById("sign").innerHTML = "Cancer";
+      document.getElementById("horoscope").innerHTML = "0ero outta hippo yuyu did it first";
+    }
+  else if((month == "july" && day >= 23) || (month == "august" && day <= 22)) {
+      document.getElementById("sign").innerHTML = "Leo";
+      document.getElementById("horoscope").innerHTML = "OOOOO GHYIIIIIIIID";
+    }
+  else if((month == "august" && day >= 23) || (month == "september" && day <= 22)) {
+      document.getElementById("sign").innerHTML = "Virgo";
+      document.getElementById("horoscope").innerHTML = "shiteatinggrin.\jpg";
+  }
+  else if((month == "september" && day >= 23) || (month == "october" && day <= 23)) {
+      document.getElementById("sign").innerHTML = "Libra";
+      document.getElementById("horoscope").innerHTML = "More like \"you suck\"";
+  }
+  else if((month == "october" && day >= 24) || (month == "november" && day <= 21)) {
+      document.getElementById("sign").innerHTML = "Scorpio";
+      document.getElementById("horoscope").innerHTML = "GET OVUR EAR";
+  }
+  else if((month == "november" && day >= 22) || (month == "december" && day <= 21)) {
+      document.getElementById("sign").innerHTML = "Sagittarius";
+      document.getElementById("horoscope").innerHTML = "centaurs";
+  }
+  else if((month == "december" && day >= 22) || (month == "january" && day <= 19)) {
+      document.getElementById("sign").innerHTML = "Capricorn";
+      document.getElementById("horoscope").innerHTML = "unicorns";
+  }
+  else if((month == "january" && day >= 20) || (month == "february" && day <= 18)) {
+      document.getElementById("sign").innerHTML = "Aquarius";
+      document.getElementById("horoscope").innerHTML = "IT WAS I, DIO\!\!\!";
+  }
+  else if((month == "february" && day >= 19) || (month == "march" && day <= 20)) {
+      document.getElementById("sign").innerHTML = "Pisces";
+      document.getElementById("horoscope").innerHTML = "i un like fish";
+  }
+  else if((month == "march" && day >= 21) || (month == "april" && day <= 19)) {
+      document.getElementById("sign").innerHTML = "Aries";
+      document.getElementById("horoscope").innerHTML = "KRATOS";
+  }
+  else{
+    document.getElementById("sign").innerHTML = "now you dun fucked up, boi"
+    document.getElementById("horoscope").innerHTML = "WELCUM 2 TEH FAMIRY SUUUUN"
+  }
+}
+</script>
+
+
+<script id="jsbin-source-javascript" type="text/javascript">document.getElementById("btn").onclick = getHoro;
+
+function getHoro(){
+  var month = document.getElementById("month").value;
+  var day = parseInt(document.getElementById("day").value);
+  
+  if((month == "april" && day >= 20) || (month == "may" && day <= 20)) {
+    document.getElementById("sign").innerHTML = "Taurus";
+    document.getElementById("horoscope").innerHTML = "SSSSSSUPAH MARIO SUNSHINE BAYBEEEEE";
+    }
+  else if((month == "may" && day >= 21) || (month == "june" && day <= 21)) {
+      document.getElementById("sign").innerHTML = "Gemini";
+      document.getElementById("horoscope").innerHTML = "GET FUCKED BOIIII";
+    }
+  else if((month == "june" && day >= 22) || (month == "july" && day <= 22)) {
+      document.getElementById("sign").innerHTML = "Cancer";
+      document.getElementById("horoscope").innerHTML = "0ero outta hippo yuyu did it first";
+    }
+  else if((month == "july" && day >= 23) || (month == "august" && day <= 22)) {
+      document.getElementById("sign").innerHTML = "Leo";
+      document.getElementById("horoscope").innerHTML = "OOOOO GHYIIIIIIIID";
+    }
+  else if((month == "august" && day >= 23) || (month == "september" && day <= 22)) {
+      document.getElementById("sign").innerHTML = "Virgo";
+      document.getElementById("horoscope").innerHTML = "shiteatinggrin.\jpg";
+  }
+  else if((month == "september" && day >= 23) || (month == "october" && day <= 23)) {
+      document.getElementById("sign").innerHTML = "Libra";
+      document.getElementById("horoscope").innerHTML = "More like \"you suck\"";
+  }
+  else if((month == "october" && day >= 24) || (month == "november" && day <= 21)) {
+      document.getElementById("sign").innerHTML = "Scorpio";
+      document.getElementById("horoscope").innerHTML = "GET OVUR EAR";
+  }
+  else if((month == "november" && day >= 22) || (month == "december" && day <= 21)) {
+      document.getElementById("sign").innerHTML = "Sagittarius";
+      document.getElementById("horoscope").innerHTML = "centaurs";
+  }
+  else if((month == "december" && day >= 22) || (month == "january" && day <= 19)) {
+      document.getElementById("sign").innerHTML = "Capricorn";
+      document.getElementById("horoscope").innerHTML = "unicorns";
+  }
+  else if((month == "january" && day >= 20) || (month == "february" && day <= 18)) {
+      document.getElementById("sign").innerHTML = "Aquarius";
+      document.getElementById("horoscope").innerHTML = "IT WAS I, DIO\!\!\!";
+  }
+  else if((month == "february" && day >= 19) || (month == "march" && day <= 20)) {
+      document.getElementById("sign").innerHTML = "Pisces";
+      document.getElementById("horoscope").innerHTML = "i un like fish";
+  }
+  else if((month == "march" && day >= 21) || (month == "april" && day <= 19)) {
+      document.getElementById("sign").innerHTML = "Aries";
+      document.getElementById("horoscope").innerHTML = "KRATOS";
+  }
+  else{
+    document.getElementById("sign").innerHTML = "now you dun fucked up, boi"
+    document.getElementById("horoscope").innerHTML = "WELCUM 2 TEH FAMIRY SUUUUN"
+  }
+}
+</script>
